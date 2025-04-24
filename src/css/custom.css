@@ -9,7 +9,7 @@
   --ifm-color-primary-lighter: white;
   --ifm-color-primary-lightest: white;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgb(255, 255, 255);
+  --docusaurus-highlighted-code-line-bg: #373849;
 }
 
 [data-theme="dark"] {
@@ -20,7 +20,7 @@
   --ifm-color-primary-light: white;
   --ifm-color-primary-lighter: white;
   --ifm-color-primary-lightest: white;
-  --docusaurus-highlighted-code-line-bg: rgb(255, 255, 255);
+  --docusaurus-highlighted-code-line-bg: #373849;
 }
 
 html {
