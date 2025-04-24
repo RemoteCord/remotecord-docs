@@ -17,11 +17,11 @@ Once you've completed all [Installation](/docs/getting-started/installation) ste
 
 The ID visible at the top of the screen is your **Client ID**. This number is not secret & can be shared around if needed. Have this number ready for the following steps.
 
-## Discord Bot
+## RemoteCord Bot
 
 To connect to a Client from the bot, you first need to have them added as a friend.
 
-1. Run `/add <clientID>` to send a friend request to your client.
+1. Run `/add-client <clientID>` to send a friend request to your client.
 2. From the **Client App**, accept this request.
 3. Run `/clients` and you should see your client's Name and ID in your friends list.
 

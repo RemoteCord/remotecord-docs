@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --ifm-color-primary: #1e1f22;
   --ifm-color-primary-dark: white;
@@ -8,6 +10,8 @@
   --ifm-color-primary-light: white;
   --ifm-color-primary-lighter: white;
   --ifm-color-primary-lightest: white;
+  --ifm-footer-background-color: #1213148a !important;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: #373849;
 }
@@ -20,11 +24,46 @@
   --ifm-color-primary-light: white;
   --ifm-color-primary-lighter: white;
   --ifm-color-primary-lightest: white;
+  --ifm-footer-background-color: #1213148a !important;
+
   --docusaurus-highlighted-code-line-bg: #373849;
 }
 
+.footer--dark {
+  background-color: #1213148a !important;
+}
+
 html {
+  font-family: "Inter", sans-serif;
   color: white;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+}
+
+thead tr {
+  background-color: #303030;
+  color: #ffffff;
+  text-align: left;
+}
+
+th,
+td {
+  padding: 12px 15px;
+}
+
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #1f1f1f;
 }
 
 .button--secondary {

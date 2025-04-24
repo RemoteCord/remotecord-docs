@@ -22,13 +22,13 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Deploy your own
+            Get Started
           </Link>
           <Link
             className="button button--secondary-2 button--lg"
             to="/docs/intro"
           >
-            How to use RemoteCord
+            Host your own
           </Link>
         </div>
         {/* <JoinDiscord /> */}

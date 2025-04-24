@@ -1,46 +1,46 @@
-import { themes as prismThemes } from 'prism-react-renderer';
-import type { Config } from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'RemoteCord Docs',
-  tagline: 'find all you need there',
-  favicon: 'img/favicon.ico',
+  title: "RemoteCord Docs",
+  tagline: "Find everything you need to know about RemoteCord.",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://docs.remotecod.app',
+  url: "https://docs.remotecord.app",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Remotecord', // Usually your GitHub org/user name.
-  projectName: 'remotecord-docs', // Usually your repo name.
+  organizationName: "Remotecord", // Usually your GitHub org/user name.
+  projectName: "remotecord-docs", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: false,
         // blog: {
@@ -59,7 +59,7 @@ const config: Config = {
         //   onUntruncatedBlogPosts: 'warn',
         // },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -67,59 +67,57 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: 'RemoteCord',
+      title: "RemoteCord",
       logo: {
-        alt: 'Remotecord logo',
-        src: 'img/logo.png',
+        alt: "Remotecord logo",
+        src: "img/logo.png",
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docs',
-          position: 'left',
-          label: 'Documentation',
+          type: "docSidebar",
+          sidebarId: "docs",
+          position: "left",
+          label: "Documentation",
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/facebook/docusaurus",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Main Page",
           items: [
             {
-              label: 'self-host',
-              to: '/docs/intro',
+              label: "RemoteCord",
+              href: "https://remotecord.app",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community & Support",
           items: [
-
             {
-              label: 'Discord',
-              href: 'https://discord.com/oauth2/authorize?client_id=1043524973517615164&response_type=code&redirect_uri=https%3A%2F%2Fapii.remotecord.app%2Fapi%2Fcontrollers%2Fget-email&scope=email',
+              label: "Discord",
+              href: "https://discord.com/oauth2/authorize?client_id=1043524973517615164&response_type=code&redirect_uri=https%3A%2F%2Fapii.remotecord.app%2Fapi%2Fcontrollers%2Fget-email&scope=email",
             },
             {
-              label: 'Github',
-              href: 'https://github.com/remotecord',
+              label: "Github",
+              href: "https://github.com/remotecord",
             },
           ],
         },
-
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RemoteCord. Built with Docusaurus.`,
     },
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: "dark",
       disableSwitch: true, // 👈 hides the toggle
       respectPrefersColorScheme: false, // 👈 ignores system setting
     },
@@ -127,7 +125,6 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-
   } satisfies Preset.ThemeConfig,
 };
 
