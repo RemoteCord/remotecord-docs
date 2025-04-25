@@ -13,8 +13,6 @@ If you haven't already, make sure you've **logged in with Google** in the Client
 :::
 Once you've completed all [Installation](/docs/getting-started/installation) steps, you should see a screen like this:
 
-![Client App Screenshot](./img/app1.webp)
-
 The ID visible at the top of the screen is your **Client ID**. This number is not secret & can be shared around if needed. Have this number ready for the following steps.
 
 ## RemoteCord Bot

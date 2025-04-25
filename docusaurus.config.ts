@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "RemoteCord Docs",
-  tagline: "Find everything you need to know about RemoteCord.",
+  tagline: "Find everything you need to know about RemoteCord here.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -39,8 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/RemoteCord/remotecord-docs/tree/main",
         },
         blog: false,
         // blog: {
@@ -82,7 +81,7 @@ const config: Config = {
           label: "Documentation",
         },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/RemoteCord",
           label: "GitHub",
           position: "right",
         },

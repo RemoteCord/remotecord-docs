@@ -26,9 +26,9 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary-2 button--lg"
-            to="/docs/intro"
+            to="https://github.com/RemoteCord/remotecord-docs"
           >
-            Host your own
+            Help contribute to the docs
           </Link>
         </div>
         {/* <JoinDiscord /> */}
