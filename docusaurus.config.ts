@@ -9,6 +9,7 @@ const config: Config = {
   tagline: "Find everything you need to know about RemoteCord here.",
   favicon: "img/favicon.ico",
 
+
   // Set the production url of your site here
   url: "https://docs.remotecord.app",
   // Set the /<baseUrl>/ pathname under which your site is served
