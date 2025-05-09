@@ -40,7 +40,7 @@ function HomepageHeader() {
 export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout description="Description will go into a meta tag in <head />">
+    <Layout description="RemoteCord Documentation">
       <HomepageHeader />
       <main></main>
     </Layout>
