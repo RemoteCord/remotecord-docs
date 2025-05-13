@@ -11,7 +11,6 @@ To visualize this, we can imagine 2 users: _User1_ & _User2_. With user permissi
 :::warning Warning
 By default, all users you friend have **full access permissions**. Make sure to set proper permissions for untrusted users before allowing them to access your machine.
 :::
-![Permissions image](./img/perms.png)
 
 ### Get File
 
