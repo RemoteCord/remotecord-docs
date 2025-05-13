@@ -23,7 +23,6 @@ Here is a list of all the available commands for the RemoteCord Bot.
 | **delete-client**                        | `/delete-client`         | Returns a list of all friended Clients and allows you to unfriend one using a drop-down menu.                                     |
 | **explorer** _&lt;folder&gt;_            | `/explorer Desktop`      | Displays a list of files from the `folder` argument.                                                                              |
 | **get** _&lt;route&gt;_ _&lt;folder&gt;_ | `/get file.exe Desktop`  | Downloads a file from the Client and sends it back.                                                                               |
-| **keylogger**                            | `/keylogger`             | Returns an updating message of the keys pressed by the client in real time.                                                       |
 | **screenshot**                           | `/screenshot`            | Returns a screenshot from the Client. If the client has more than 1 screen, you're allowed to choose which one you'd like to see. |
 | **tasks**                                | `/tasks`                 | Returns a list of processes currently executing in the client, ordered by memory usage.                                           |
 | **upload** _&lt;file&gt;_                | `/upload hello.png`      | Allows you to upload a file to the Client. The destination can be configured on the Client.                                       |
