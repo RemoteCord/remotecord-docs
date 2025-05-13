@@ -37,10 +37,6 @@ Toggles whether the user can view running processes in the Client using the `/ta
 
 Toggles whether the user can take screenshots of the Client using the `/screenshot` command.
 
-### Keylogger
-
-Toggles wherther the user has access to the `/keylogger` command.
-
 ### View Camera
 
 Toggles whether the user can see screenshots of the Client's cameras using the `/camera` command.
